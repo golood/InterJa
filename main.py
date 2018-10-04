@@ -1,9 +1,11 @@
 '''
 Файл для запуска
 '''
+from sitax import Sintax
 
-string = '''int a = 5;
-            double b = 6,8;
-            string s = "str";
-            boolean bol = False;'''
+string = '(hu - (66) + 66)'
+
+test = Sintax(string)
+
+
 
